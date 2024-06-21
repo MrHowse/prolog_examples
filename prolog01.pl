@@ -1,0 +1,12 @@
+healthy(jim).
+health(jill).
+healthy(jack).
+healthy(betty).
+wealthy(jim).
+wealthy(betty).
+wise(jack).
+wise(betty).
+happy(X):-
+	healthy(X),
+	wealthy(X),
+	wise(X).
